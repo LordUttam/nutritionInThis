@@ -1,11 +1,9 @@
 import tweepy
 import logging
-from config import create_api
+from config import create_api, client
 import time
-from usda import UsdaClient
 from usda import base
 
-client = UsdaClient('AIpZZveymTa6bWWtZsicN2wMDw1kXiFxDwYfcP4A')
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
@@ -79,7 +77,6 @@ def check_mentions(api, last_seen_id):
                 in_reply_to_status_id=tweet.id,
             )
             logger.info(f"Answering to {tweet.user.screen_name} that {food_in_tweet} is not in database")
-
 
     return new_since_id
 

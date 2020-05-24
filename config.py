@@ -1,6 +1,10 @@
 import tweepy
 import logging
+from usda import UsdaClient
 import os
+
+client = UsdaClient('AIpZZveymTa6bWWtZsicN2wMDw1kXiFxDwYfcP4A')
+
 
 logger = logging.getLogger()
 
