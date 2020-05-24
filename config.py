@@ -4,14 +4,15 @@ from usda import UsdaClient
 import os
 
 client = UsdaClient('AIpZZveymTa6bWWtZsicN2wMDw1kXiFxDwYfcP4A')
+client = UsdaClient('XXXXXXXXXYYYYYYYYYhck2fenXXXXXXXXXXXXXXX')
 
 
 logger = logging.getLogger()
 
-CONSUMER_KEY = "scvrWYKtJYCHFLfvBQNgsztgk"
-CONSUMER_SECRET = "7BGO75s7L78krMYxjqAfuP2l9dpdj7CVclqtry3OTD9DaUUXgj"
-ACCESS_TOKEN = "1260586659088867328-GCHRNLu9orOqavGZyYcv8ppjYRAWmo"
-ACCESS_TOKEN_SECRET = "dQxWaADJOiWW3vDJxwgrT323WVtkE0BdQvCdbLmWSDStW"
+CONSUMER_KEY = "xxxxxxxxxxxxXXXXXXXxxxxxx"
+CONSUMER_SECRET = "######******xxxxxxxxXXXXXXXXXXYYYYYYYYYYYYYYYyyyyy"
+ACCESS_TOKEN = "26523572864783693267**************XXXXXXXXXXXX"
+ACCESS_TOKEN_SECRET = "xxxxxxx2635614x738798XXXXXXXXXXXXXXXyyyyyyyyy"
 
 
 def create_api():
